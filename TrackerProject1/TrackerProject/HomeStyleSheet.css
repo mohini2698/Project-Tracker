@@ -1,0 +1,77 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('login.jpg');
+    background-size: cover;
+    font-family: Calibri;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+    #menu ul li {
+        #background-color: cornflowerblue;
+        border: 1px solid black;
+        width: 120px;
+        height: 35px;
+        text-align: center;
+        line-height: 35px;
+        float: left;
+        #position: relative;
+        border-radius: 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        # transition: .3s ease-in-out;
+        background-color: #fff;
+        color: #000;
+    }
+
+        #menu ul li a {
+            text-decoration: none;
+            color: #000;
+            display: block;
+        }
+
+            #menu ul li a:hover {
+                background-color: #34097c;
+                color: #fff;
+                border-radius: 20px;
+            }
+
+
+    #menu ul ul {
+        position: absolute;
+        display: none;
+    }
+
+    #menu ul li > ul li {
+        background-color: white;
+        color: #edeef8;
+        border: solid:1px white;
+        border-radius: 20px;
+    }
+
+    #menu ul li:hover > ul {
+        display: block;
+        border-radius: 20px;
+    }
+
+
+.Signupbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 900px;
+    height: 400px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+}
+
+.lblpass {
+    font-weight: 600;
+    color: #fff;
+    font-size: 20px;
+}
